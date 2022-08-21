@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reach Us</title>
+    <style>
+    .header{
+    height: 10vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(images/tropicalBeach.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    padding: 20px 0;
+    text-align: center;/* the h1 main text */
+} 
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* logos */
+.header img{
+    width: 170px;
+    float: left;
+}
+.login-btn{
+    width: 120px;
+    padding: 6px 0;
+    outline: none !important;
+    border: 2px solid white;
+    border-radius: 50px;
+    background: transparent;
+    color: white;
+}
+/* form */
+.form{
+    width: 50%;
+    height: 50vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5% auto;
+}
+.form-cont{
+    width: 80%;
+    height: 30px;
+}
+.form-text{
+    width: 80%;
+    height: 60px;
+}
+.form-btn{
+    width: 180px;
+    height: 35px;
+    border: none;
+}
+
+    </style>
+</head>
+<body>
+    <section class="header"><!-- for entire background photo -->
+        <div class="container"><!-- only for navbar -->
+            <img src="images/tourLogo.png" alt="Icon">
+            <a href="index.html"> <button type="button" class="login-btn">Back</button></a>
+            </div>
+        </div>
+     </section>
+
+<!-- content -->
+    <div class="reachus">
+        <!--  -->
+        <form id="gform" method="POST" data-email="melkamshiferaw1@gmail.com" class="form" autocomplete="off"
+        action="https://script.google.com/macros/s/AKfycbw_AfQ1B-MQX0RxaqNFvno2Y53AWYWYIzT9qrHU/exec">
+                <input id="name" name="name" type="text" class="form-cont" placeholder="Your Full Name" required>
+               <!--  <input type="text" class="form-cont" placeholder="Your Last Name" required> -->
+                <input id="email" name="email" type="email" class="form-cont" placeholder="Your Email Address" required>
+                <textarea id="message" name="message" type="text" class="form-text"  
+                 placeholder="Leave your comments, suggestions, questions etc. please" required></textarea>
+               
+                 <button class="form-btn" type="submit">Submit form</button>
+          </form>
+        <!--  -->
+    </div>
+</body>
+</html>

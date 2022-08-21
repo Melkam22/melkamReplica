@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Page</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        }
+    html{
+    scroll-behavior: smooth;
+}
+    .header{
+    min-height: 10vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(images/tropicalBeach.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    padding: 20px 0;
+    text-align: center;/* the h1 main text */
+} 
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* logos */
+.header img{
+    width: 170px;
+    float: left;
+}
+.login-btn{
+    width: 120px;
+    padding: 6px 0;
+    outline: none !important;
+    border: 2px solid white;
+    border-radius: 50px;
+    background: transparent;
+    color: white;
+}
+/* content */
+.main{
+    margin: 100px 10px;
+}
+.ul{
+    width: 60%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    color: white;
+    text-decoration: none;
+} 
+.header .ul .a{
+    color: white;
+    text-decoration: none;
+}
+.back{
+    width: 100px;
+    padding: 2px 0;
+    outline: none !important;
+    border: 2px solid white;
+    border-radius: 50px;
+    background: transparent;
+    color: white;
+}
+.back a{
+    color: white;
+    text-decoration: none;
+}
+#deals, #reviews, #cancellation{
+    margin-top: 100px;
+}
+#deals, #reviews, #cancellation p{
+    text-align: justify;
+}
+    </style>
+</head>
+<body>
+    <section class="header"><!-- for entire background photo -->
+        <div class="container"><!-- only for navbar -->
+            <img src="images/tourLogo.png" alt="Icon">
+            <a href="reachUs.html"> <button type="button" class="login-btn">Reach-Us</button></a>
+            </div>
+            <!-- content -->
+     <ul class="ul">
+        <li><a href="#deals" class="a">Deals & Offer</a></li>
+        <li><a href="#reviews" class="a">Client's Review</a></li>
+        <li><a href="#cancellation" class="a">Cancellation Policy</a></li>
+        <li class="back"><a href="index.html">Back</a></li>
+    </ul>
+     </section>
+     <!-- ul list -->
+     <div class="main">
+
+     <section id="deals">
+         <h2>Offers and Deals</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quis hic repellendus voluptates provident laborum, 
+            accusamus mollitia numquam impedit iusto corrupti vel magni, iste possimus doloribus, eligendi aliquid optio debitis!</p>
+     </section>
+     <!--  -->
+     <section id="reviews">
+         <h2>Client's Review</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ex unde eligendi iusto vel repudiandae? Illum 
+            quo nam, sed, nemo cumque illo tempora sequi libero porro dicta ex sint ipsa. Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. Culpa, reiciendis explicabo rem fuga inventore, nihil odit unde quibusdam dolore, 
+            maxime corrupti iusto distinctio at voluptatem iure labore tenetur quisquam fugiat!</p>
+     </section>
+     <!--  -->
+     <section id="cancellation">
+         <h2>Cancellantion Policy</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid itaque nemo quaerat, porro voluptatibus 
+            hic suscipit! Hic enim facere totam, inventore tenetur exercitationem, incidunt praesentium, suscipit 
+            voluptatum fugit sint? Id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur impedit 
+            corrupti amet delectus fuga ipsam reprehenderit dignissimos officiis voluptatum enim dicta explicabo laborum, 
+            exercitationem, similique aspernatur soluta quod libero. Totam. Lorem ipsum, dolor sit amet consectetur 
+            adipisicing elit. Eos debitis, maxime sed architecto animi corrupti consequatur officiis repudiandae, 
+            magnam reiciendis pariatur nobis incidunt molestiae id, enim earum ipsa ullam ducimus. Lorem ipsum dolor 
+            sit amet consectetur adipisicing elit. Eum tenetur sint harum laudantium, totam fugit a commodi aliquam 
+            temporibus? Itaque veritatis eos ex possimus aliquid nam perspiciatis magnam reprehenderit maiores? Lorem 
+            ipsum dolor sit amet consectetur adipisicing elit. Possimus dolorum non inventore labore voluptatum, sint 
+            magnam ab facere! Repellat accusamus, sunt asperiores debitis quae laudantium distinctio. Adipisci blanditiis 
+            perspiciatis nihil.</p>
+     </section>
+    
+    </div>
+</body>
+</html>
